@@ -58,6 +58,7 @@ resetButton.addEventListener("click", function() {
   //change background
   h1.style.backgroundColor = "steelblue";
   messageDisplay.textContent = "";
+  resetButton.textContent = "NEW COLORS";
 });
 colorDisplay.textContent = pickedColor;
 for (var i = 0; i < squares.length; i++) {
@@ -80,6 +81,7 @@ for (var i = 0; i < squares.length; i++) {
       this.style.backgroundColor = "#232323";
       messageDisplay.textContent = "Try Again";
     }
+    resetButton.textContent = "PLAY AGAIN?";
   });
 }
 
