@@ -25,6 +25,7 @@ easyBtn.addEventListener("click", function() {
     squares[i].style.display = "none";
   }
   h1.style.backgroundColor = "steelblue";
+  messageDisplay.textContent = "";
 });
 hardBtn.addEventListener("click", function() {
   numSquares = 6;
@@ -42,6 +43,7 @@ hardBtn.addEventListener("click", function() {
     squares[i].style.display = "block";
   }
   h1.style.backgroundColor = "steelblue";
+  messageDisplay.textContent = "";
 });
 resetButton.addEventListener("click", function() {
   //generalte all new colors
@@ -55,6 +57,7 @@ resetButton.addEventListener("click", function() {
   colorDisplay.textContent = pickedColor;
   //change background
   h1.style.backgroundColor = "steelblue";
+  messageDisplay.textContent = "";
 });
 colorDisplay.textContent = pickedColor;
 for (var i = 0; i < squares.length; i++) {
