@@ -1,3 +1,3 @@
 # colorPicker
 
-Up at : mertselimb.me/colorPicker
+Up at : https://mertselimb.me/colorPicker
